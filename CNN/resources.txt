@@ -13,3 +13,6 @@ https://mathworld.wolfram.com/GaussianFunction.html
 https://docs.opencv.org/master/index.html
 
 https://pytorch.org/docs/stable/nn.html#pooling-layers
+
+
+https://experiments.withgoogle.com/what-neural-nets-see
