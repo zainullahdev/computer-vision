@@ -1,0 +1,10 @@
+Shape of a Convolutional Layer:
+K — out_channels : the number of filters in the convolutional layer
+F — kernel_size
+S — the stride of the convolution
+P — the padding
+W — the width/height (square) of the previous layer
+
+For any convolutional layer, the output feature maps will have the specified depth (a depth of 10 for 10 filters in a convolutional layer) and the dimensions of the produced feature maps (width/height) can be computed as the input image width/height, W, minus the filter size, F, divided by the stride, S, all + 1. The equation looks like: output_dim = (W-F)/S + 1, for an assumed padding size of 0. You can find a derivation of this formula, here.
+
+For a pool layer with a size 2 and stride 2, the output dimension will be reduced by a factor of 2. Read the comments in the code below to see the output size for each layer.
